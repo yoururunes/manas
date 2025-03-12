@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biography</title>
+    <title>Сновидения Манасчы</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
@@ -54,55 +54,83 @@
             width: 30%;
             border-radius: 10px;
         }
-        video {
-            width: 100%;
-            max-width: 600px;
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        iframe {
+            width: 80%;
+            max-width: 800px;
+            height: 450px;
+            border-radius: 10px;
+        }
+        .back-to-top {
             display: block;
-            margin: auto;
+            width: 200px;
+            margin: 40px auto;
+            padding: 10px;
+            text-align: center;
+            background-color: #333;
+            color: white;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .back-to-top:hover {
+            background-color: #555;
         }
     </style>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#video">Video</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#intro">Введение</a></li>
+            <li><a href="#examples">Примеры</a></li>
+            <li><a href="#symbolism">Символика</a></li>
+            <li><a href="#research">Исследования</a></li>
+            <li><a href="#video">Видео</a></li>
         </ul>
     </nav>
     
     <header>
-        <h1>Person's Name</h1>
-        <p>A brief introduction about the person</p>
+        <h1>Сновидения Манасчы</h1>
+        <p>Роль сновидений в становлении сказителей эпоса «Манас»</p>
     </header>
     
-    <section id="about" class="content-box">
-        <h2>About</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut lacus ac mauris luctus pharetra.</p>
+    <section id="intro" class="content-box">
+        <h2>Введение</h2>
+        <p>Сновидения играют центральную роль в становлении манасчы. Многие из них обретают свой дар через вещие сны, где им являются герои эпоса или духовные наставники.</p>
     </section>
     
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <div class="image-container">
-            <img src="sample1.jpg" alt="Sample Image">
-            <img src="sample2.jpg" alt="Sample Image">
-            <img src="sample3.jpg" alt="Sample Image">
-        </div>
+    <section id="examples" class="content-box">
+        <h2>Примеры из жизни известных манасчы</h2>
+        <ul>
+            <li><strong>Сагымбай Орозбаков:</strong> Великий сказитель, чьи сновидения были ключевыми в его творческом пути.</li>
+            <li><strong>Саякбай Каралаев:</strong> Видел символические образы, такие как беркут, меч Зулпукор, солнце и луна.</li>
+            <li><strong>Жусуп Мамай:</strong> В своих воспоминаниях отмечал, что сны и наставники сыграли важную роль в его становлении.</li>
+        </ul>
+    </section>
+    
+    <section id="symbolism" class="content-box">
+        <h2>Символика сновидений</h2>
+        <p>Сновидения манасчы часто связаны с числом 40, что имеет особое значение в киргизской культуре. В эпосе «Манас» тоже встречаются вещие сны, наполненные символическими образами.</p>
+    </section>
+    
+    <section id="research" class="content-box">
+        <h2>Исследования и интерпретации</h2>
+        <p>Современные исследователи уделяют внимание изучению сновидений манасчы, рассматривая их как важный элемент передачи культурного и духовного наследия. Например, в работе «Интерпретирование “сновидений” манасчы Калимом Рахматуллиным» анализируются особенности и значения таких сновидений.</p>
     </section>
     
     <section id="video" class="content-box">
-        <h2>Video</h2>
-        <video controls>
-            <source src="your-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <h2>Видео</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/_EzzVjwl-3k" allowfullscreen></iframe>
+        </div>
     </section>
     
-    <section id="contact" class="content-box">
-        <h2>Contact</h2>
-        <p>Email: example@email.com</p>
-        <p>Phone: +123 456 7890</p>
-    </section>
+    <a href="#top" class="back-to-top">Вернуться наверх</a>
 </body>
 </html>
